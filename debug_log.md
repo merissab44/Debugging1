@@ -15,7 +15,11 @@ _Then I noticed another bug ..._
 
 ## Exercise 1
 
-[[Your answer goes here!]]
+I knew that the home page should show the pizza once i submitted an order and it wasn't doing that. I used the divide and conquer method starting at the order route on line 65 and the order.html starting on line 6. I noticed that the name in the html form did not match the route in app.py so I changed it so they matched.
+
+I also decided to add console.log statements to make sure the data was posting and it wasn't grabbing the full list of toppings. After further research, I found the method should've been getlist and not just get. 
+
+Lastly, I noticed in our route that it was adding the pizza but didn't commit it to the database. This would've resulted in not being able to display the data on the page.
 
 ## Exercise 2
 
