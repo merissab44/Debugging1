@@ -23,7 +23,9 @@ Lastly, I noticed in our route that it was adding the pizza but didn't commit it
 
 ## Exercise 2
 
-[[Your answer goes here!]]
+First, when I ran the application , I expected to retrieve data from the api and display it on the page. I was getting an error on line 52 and so using trace forward from that line I found that the route was using users city but the template was using just city so I changed that. 
+
+Next, I found that there was a typo a couple lines down and instead of 'temperature' it should've just said 'temp'
 
 ## Exercise 3
 
