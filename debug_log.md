@@ -29,4 +29,6 @@ Next, I found that there was a typo a couple lines down and instead of 'temperat
 
 ## Exercise 3
 
-[[Your answer goes here!]]
+when I ran main.py, I got an error for index out of range on line 37. Using both trace backward and forward techniques I realized that there was a typo in using the variable name for the left side instead of the right side. 
+
+My next error was on line 51 because it was reading the number as a float. To resolve this error I used floor division so that a integer would return back.
